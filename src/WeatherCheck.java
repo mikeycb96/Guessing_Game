@@ -2,8 +2,8 @@ public class WeatherCheck {
 
     public static void main(String[] args) {
 
-        int temperature = 10;
-        boolean currentlyRaining = true;
+        int temperature = 9;
+        boolean currentlyRaining = false;
 
         if(temperature <= 10 && currentlyRaining){
             System.out.println("Wear a waterproof coat");
