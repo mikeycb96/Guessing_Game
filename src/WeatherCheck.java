@@ -2,7 +2,7 @@ public class WeatherCheck {
 
     public static void main(String[] args) {
 
-        int temperature = 20;
+        int temperature = 9;
         boolean currentlyRaining = true;
 
         if(temperature < 10 && currentlyRaining){
@@ -13,9 +13,9 @@ public class WeatherCheck {
             System.out.println("Light raincoat needed");
         } else if(temperature >= 11 && temperature <= 20 && currentlyRaining == false){
             System.out.println("Fine weather");
-        } else if(temperature > 21 && currentlyRaining) {
+        } else if(temperature >= 21 && currentlyRaining) {
             System.out.println("Hot but need an umbrella");
-        } else if(temperature > 21 && currentlyRaining == false){
+        } else if(temperature >= 21 && currentlyRaining == false){
             System.out.println("Hot so need shorts!");
         }
 
